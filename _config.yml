@@ -2,6 +2,7 @@
 menu:
   主页: /
   文章: /archives
+  关于我: /about_me
 rss: /atom.xml
 
 # Content
@@ -11,6 +12,7 @@ fancybox: true
 # Sidebar
 sidebar: right
 widgets:
+- about_me
 - category
 #- tag
 - tagcloud
@@ -34,3 +36,13 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+# AboutMe
+about_me:
+  name: '苏同'
+  gender: '男'
+  from: '浙江温州'
+  major: '信息与计算科学'
+  qq: '821192673'
+  email: '821192673@qq.com'
+  

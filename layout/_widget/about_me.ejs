@@ -1,0 +1,12 @@
+  <div class="widget-wrap">
+    <h3 class="widget-title"><%= __('about_me') %></h3>
+    <div class="widget">
+	<%- image_tag('me.jpg',{width:'100%'}) %>
+	<ul>
+		<li><span class="black"><%= theme.about_me.name %></span>，<span class="black"><%= theme.about_me.gender %></span>，来自<span class="black"><%= theme.about_me.from %></span></li>
+		<li><span class="black"><%= theme.about_me.major %></span></li>
+		<li>QQ:<span class="black"><%= theme.about_me.qq %></span></li>
+		<li>Email:<%- mail_to(theme.about_me.email) %></li>
+	</ul>
+    </div>
+  </div>
