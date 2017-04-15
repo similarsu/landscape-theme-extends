@@ -2,7 +2,6 @@
 menu:
   主页: /
   文章: /archives
-  关于我: /about_me
 rss: /atom.xml
 
 # Content
